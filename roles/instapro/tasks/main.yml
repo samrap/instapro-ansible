@@ -1,0 +1,6 @@
+---
+- name: Configure logrotate
+  copy:
+    src: "logrotate"
+    dest: "/etc/logrotate.d/instapro"
+  become: yes

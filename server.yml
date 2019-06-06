@@ -1,0 +1,6 @@
+---
+- name: Configure the Instapro server
+  hosts: all
+  roles:
+    - common
+    - instapro

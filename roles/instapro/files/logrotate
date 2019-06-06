@@ -1,0 +1,8 @@
+/var/log/instapro/*.log {
+    daily
+    missingok
+    rotate 14
+    compress
+    notifempty
+    # create 0640 www-data www-data
+}
